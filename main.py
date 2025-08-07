@@ -1,4 +1,9 @@
 import os
+print("✅ main.py loaded")
+print("KUCOIN_API_KEY:", os.getenv("KUCOIN_API_KEY"))
+print("FORCE_TRADE_MODE:", os.getenv("FORCE_TRADE_MODE"))
+
+import os
 import threading
 import time
 from dotenv import load_dotenv
