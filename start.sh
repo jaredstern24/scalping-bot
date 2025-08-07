@@ -1,3 +1,7 @@
 #!/bin/bash
+
+echo "Installing dependencies..."
+pip install -r requirements.txt
+
 echo "Starting scalping bot..."
-python3 main.py
+python main.py
